@@ -42,8 +42,7 @@ export default function Schedule({ scheduleRef }) {
           schedule
         </h1>
         <p className="w-2/3 text-sm md:text-md  text-center">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. z
+          --------------------------------------------------
         </p>
       </div>
       <div className="flex flex-col justify-center items-center m-2">
@@ -81,7 +80,7 @@ export default function Schedule({ scheduleRef }) {
                     <span className="font-normal">Venue: </span>
                     {ele.venue}
                   </p>
-                  <div className="flex gap-4">
+                  {/* <div className="flex gap-4">
                     <RegisterButton
                       loader={loader}
                       setLoader={setLoader}
@@ -103,7 +102,7 @@ export default function Schedule({ scheduleRef }) {
                           Go to Dashboard
                         </button>
                       )}
-                  </div>
+                  </div> */}
                 </motion.div>
                 {index % 2 !== 0 && (
                   <div className="border-2 border-solid border-yellow-500 h-1/6 md:h-1/5 rounded-lg overflow-hidden">
@@ -139,7 +138,7 @@ export default function Schedule({ scheduleRef }) {
                     <span className="font-normal">Venue: </span>
                     {ele.venue}
                   </p>
-                  <div className="flex flex-col gap-4">
+                  {/* <div className="flex flex-col gap-4">
                     <RegisterButton
                       loader={loader}
                       setLoader={setLoader}
@@ -161,7 +160,7 @@ export default function Schedule({ scheduleRef }) {
                           Go to Dashboard
                         </button>
                       )}
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

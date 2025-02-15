@@ -18,7 +18,7 @@ const About = () => {
             About PPGS
           </h1>
           <p className="">
-            Public Policy and Governance Society, IIT Kharagpur serves as a dynamic platform for impassioned students to rigorously examine, deliberate upon,<br></br> and actively engage with current public Policy and governance issues. Encouraging critical thinking and fostering innovative ideation, we foster <br></br>collaborative efforts among students. Our overarching goal is to empower students with the requisite knowledge, skills, and resources to<br></br>effectuate meaningful change in the realm of public service. Through robust discourse and concerted action, we endeavor to cultivate<br></br>future leaders dedicated to shaping a more informed, effective, and equitable governance landscape.
+            Public Policy and Governance Society, IIT Kharagpur serves as a dynamic platform for impassioned students to rigorously examine, deliberate upon,and actively engage with current public Policy and governance issues. Encouraging critical thinking and fostering innovative ideation, we foster collaborative efforts among students. Our overarching goal is to empower students with the requisite knowledge, skills, and resources to effectuate meaningful change in the realm of public service. Through robust discourse and concerted action, we endeavor to cultivate future leaders dedicated to shaping a more informed, effective, and equitable governance landscape.
           </p>
         </div>
       </div>

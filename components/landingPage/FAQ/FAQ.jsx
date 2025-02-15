@@ -17,45 +17,52 @@ const FAQ = () => {
     {
       id: 1,
       q: " Will there be any registration fees?",
-      ans: ["No, the event is free of cost."],
+      ans: ["No, the event is free of cost. You can register Via UNSTOP Website"],
     },
     {
       id: 2,
       q: "What is the duration of the event?",
       ans: [
-        "There are a total of 5 events scheduled within 4 days, each with different duration and venues. Scroll above for the required event details.",
+        "There are a total of 3 events scheduled. Scroll above for the required event details.",
       ],
     },
     {
       id: 3,
-      q: "Will ODs be provided for the event?",
+      q: "Evaluation Criteria",
       ans: [
-        "Yes, ODs will be provided for all events, throughout the duration of the events.",
+        "1. Parliamentary etiquette and adherence to procedures.",  
+        "2. Quality of content presented during debates and discussions.",  
+        "3. Collaboration with peers in committees or party groups.", 
+        "4. Overall performance in representing their assigned roles.",
       ],
     },
     {
       id: 4,
       q: "Will there be cash prize for competitions?",
       ans: [
-        "Yes, both the competitions, Ideathon and Innoventure, will have their respective cash prizes. All details will be released on the social media handles.",
+        "Yes",
+        ":- Winners will be rewarded with Pre-Placement Interviews from our sponsors I-PAC and Hammurabi & Solomon Partners, along with a cash prize of INR 25,000 to the team.",
+        ":- The first runner-up will be rewarded with Pre-Placement Interviews from our sponsors I-PAC and Hammurabi & Solomon Partners along with a cash prize of INR 15,000 to the team.",
+        ":- The second runner-up will be rewarded with Pre-Placement Interviews from our sponsors I-PAC and Hammurabi & Solomon Partners along with a cash prize of INR 10,000 to the team.",
+        ":- The top 4-10 teams will be rewarded with Pre-Placement Interviews from our sponsors I-PAC and Hammurabi & Solomon Partners.",
+        ":- E-certificates for all the participants."
       ],
     },
-    {
-      id: 5,
-      q: "Is there a limit for E-talk ?",
-      ans: [
-        "The limit for E-talk is 1500 people, it’s scheduled for 15th April from 2pm-7pm.",
-      ],
-    },
+    // {
+    //   id: 5,
+    //   q: "Is there a limit for E-talk ?",
+    //   ans: [
+    //     "The limit for E-talk is 1500 people, it’s scheduled for 15th April from 2pm-7pm.",
+    //   ],
+    // },
     {
       id: 6,
       q: "I still have some doubts regarding the event, how can i get them resolved?",
       ans: [
-        "Contact the following POC’s for assistance:",
-        "1. Arjun Bector - 9914500336",
-        "2. Vaibhav - 8074911266",
-        "3. Archi - 9993310304",
-        "4. Saket DB- 7387776883",
+        "Contact the following for assistance:",
+        "Shivam Kumar",
+        "ppgs.iitkgp@gmail.com",
+        "+919832651607",
       ],
     },
   ];
