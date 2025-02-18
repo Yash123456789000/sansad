@@ -20,12 +20,12 @@ export default function ResponsiveCards() {
           viewport={{ once: true }}
           className="sm:absolute min-w-40 sm:top-1/2 left-0 h-24 card p-4 rounded-xl w-full sm:w-auto bg-gradient-to-br from-[#DCA64E] via-[#FEFAB7] to-[#D6993F]"
         >
-          <p className="text-base">an</p>
-          <h2 className="text-xl font-bold">Entrepreneur</h2>
+          <p className="text-base">Eager to</p>
+          <h2 className="text-xl font-bold">Debate</h2>
         </motion.div>
         <div className="sm:absolute min-w-40 sm:top-1/2 h-24 card p-4 rounded-xl w-full sm:w-auto bg-gradient-to-bl from-[#DCA64E] via-[#FEFAB7] to-[#D6993F]">
-          <p className="text-base">working with</p>
-          <h2 className="text-xl font-bold">Startups</h2>
+          <p className="text-base">Aspiring to become a</p>
+          <h2 className="text-xl font-bold">change-maker</h2>
         </div>
         <motion.div
           initial={{ opacity: 0 }}
@@ -34,8 +34,8 @@ export default function ResponsiveCards() {
           viewport={{ once: true }}
           className="sm:absolute min-w-40 sm:top-1/2 h-24 right-0 card p-4 rounded-xl w-full sm:w-auto bg-gradient-to-tr from-[#DCA64E] via-[#FEFAB7] to-[#D6993F]"
         >
-          <p className="text-base">interested in </p>
-          <h2 className="text-xl font-bold">Startups</h2>
+          <p className="text-base">Passionate about</p>
+          <h2 className="text-xl font-bold">Policymaking</h2>
         </motion.div>
       </div>
 
@@ -47,30 +47,30 @@ export default function ResponsiveCards() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
-          className="sm:absolute min-w-40 sm:top-1/2 left-0 h-24 card p-4 rounded-xl w-full sm:w-auto bg-gradient-to-br from-[#DCA64E] via-[#FEFAB7] to-[#D6993F]"
+          className="sm:absolute min-w-40 sm:top-1/2 left-0 h-24 card p-4 rounded-xl w-full sm:w-auto bg-gradient-to-br from-[#DCA64E] via-[#FEFAB7] to-[#D6993F] text-center"
         >
-          <p className="text-base">an</p>
-          <h2 className="text-xl font-bold">Entrepreneur</h2>
+          <p className="text-base">Eager to</p>
+          <h2 className="text-xl font-bold">Debate</h2>
         </motion.div>
         <motion.div
           initial={{ opacity: 0, y: -100 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay:0.3 }}
           viewport={{ once: true }}
-          className="sm:absolute min-w-40 sm:top-1/2 h-24 right-0 card p-4 rounded-xl w-full sm:w-auto bg-gradient-to-tr from-[#DCA64E] via-[#FEFAB7] to-[#D6993F]"
+          className="sm:absolute min-w-40 sm:top-1/2 h-24 right-0 card p-4 rounded-xl w-full sm:w-auto bg-gradient-to-tr from-[#DCA64E] via-[#FEFAB7] to-[#D6993F] text-center"
         >
-          <p className="text-base">working with </p>
-          <h2 className="text-xl font-bold">Startups</h2>
+          <p className="text-base">Aspiring to become a</p>
+          <h2 className="text-xl font-bold">change-maker</h2>
         </motion.div>
         <motion.div
           initial={{ opacity: 0, y: -100 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay:0.6 }}
           viewport={{ once: true }}
-          className="sm:absolute min-w-40 sm:top-1/2 h-24 right-0 card p-4 rounded-xl w-full sm:w-auto bg-gradient-to-tr from-[#DCA64E] via-[#FEFAB7] to-[#D6993F]"
+          className="sm:absolute min-w-40 sm:top-1/2 h-24 right-0 card p-4 rounded-xl w-full sm:w-auto bg-gradient-to-tr from-[#DCA64E] via-[#FEFAB7] to-[#D6993F] text-center"
         >
-          <p className="text-base">interested in </p>
-          <h2 className="text-xl font-bold">Startups</h2>
+          <p className="text-base">Passionate about</p>
+          <h2 className="text-xl font-bold">Policymaking</h2>
         </motion.div>
       </div>
     </section>

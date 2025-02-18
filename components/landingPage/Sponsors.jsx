@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
-import mu from "@/public/assets/landingPage/sponsors/mu.png"
+import ipac from "@/public/assets/landingPage/sponsors/ipac.png"
+import hs from "@/public/assets/landingPage/sponsors/hs.png"
 export default function Sponsors() {
   return (
     <section className="px-10 md:px-20 bg-[#0E0E0E]">
@@ -18,9 +19,12 @@ export default function Sponsors() {
           ></motion.div>
         </div>
       </div>
-      <div className="h-fit flex justify-center pt-20">
+      <div className="h-fit flex flex-col md:flex-row justify-center items-center pt-20">
         <div>
-          <Image className="h-14 w-auto" src={mu}/>
+          <Image className="h-72 w-auto" src={ipac} alt="Sponsor Logo"/>
+        </div>
+        <div>
+          <Image className="h-72 w-auto" src={hs} alt="Sponsor Logo"/>
         </div>
       </div>
     </section>

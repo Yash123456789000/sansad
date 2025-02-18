@@ -8,21 +8,21 @@ export const IIA = () => {
   const data = [
     {
       img: ideate,
-      title: "Ideate",
+      title: "Debate",
       description:
-        "Generate and explore creative ideas to solve a problem or achieve a goal.",
+        "Engage in insightful discussions, defend your stance with logic, and challenge perspectives to refine your argumentation skills.",
     },
     {
       img: innovate,
-      title: "Innovate",
+      title: "Deliberate",
       description:
-        "Provide a unique and workable concept to stand out from the competitors.",
+        "Analyze policies, navigate governance frameworks, and collaborate to shape well-informed legislative solutions.",
     },
     {
       img: actuate,
-      title: "Actuate",
+      title: "Lead",
       description:
-        "Execute a well-planned strategy or solution with precision and agility",
+        "Step into the shoes of decision-makers, influence outcomes, and contribute to impactful policy dialogues.",
     },
   ];
   const cards = data.map((item) => (
