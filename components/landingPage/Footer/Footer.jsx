@@ -70,7 +70,7 @@ export const Footer = () => {
                 <span>
                   <BiSolidPhoneCall />
                 </span>
-                +91 ********
+                +91 6306311799
               </Link>
               <Link
                 className="flex items-center gap-2 justify-center"

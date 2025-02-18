@@ -1,4 +1,7 @@
-import image from "@/public/assets/boardpics/image.png";
+import quiz from "@/public/assets/boardpics/quiz.png";
+import image from "@/public/assets/boardpics/register.png";
+import parlament from "@/public/assets/boardpics/parlament.jpeg";
+
 const scheduleDetails = [
   {
     id: 1,
@@ -6,14 +9,14 @@ const scheduleDetails = [
     date: "FEB 17",
     description:
       "20 questions in 20 minutes: The preliminary stage consists of an online quiz comprising MCQs based on general awareness from the IPAC and the Hammurabi & Solomon Partners websites. Correct answers and speed will earn you extra points in this round!",
-    image: image,
+    image: quiz,
     venue: "ON UNSTOP WEBSITE",
     time: "10:00 AM to 11:59 PM",
     whatsapp: "",
     loc: "",
   },
   {
-    id: 3,
+    id: 2,
     eventName: "Round 2 | Qualification & Registration Details",
     date: "FEB 17 - FEB 28",
     description:
@@ -25,12 +28,12 @@ const scheduleDetails = [
     loc: "",
   },
   {
-    id: 4,
+    id: 3,
     eventName: "Round 3 | Youth Indian Parliament Session | Offline",
-    date: "MARCH 17 - MARCH 19",
+    date: "MARCH 7 - MARCH 9",
     description:
       "The final round will be held on-campus at IIT Kharagpur, where participants will engage in a simulated parliamentary event along with some other guest lectures from top speakers. The agenda will be provided during a workshop before the event, along with all necessary information and guidelines to ensure smooth participation. Note: After Round 1, all information will be shared on a separate competition page on Unstop for those who have paid the accommodation fee.",
-    image: image,
+    image: parlament,
     venue: "AT IIT KHARAGPUR",
     time: "",
     whatsapp: "",

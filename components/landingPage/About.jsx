@@ -11,7 +11,7 @@ const About = () => {
             <Image
               src={logo}
               alt="PPGS Logo"
-              className="item-center h-[30vh] w-[20vw] "
+              className="item-center h-[200px] w-[200px] "
             />
           </div>
           <h1 className="text-2xl md:text-4xl font-black p-4">

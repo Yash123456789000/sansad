@@ -15,15 +15,15 @@ const Marq = () => {
         <div className="flex gap-10 bg-white text-black justify-around font-bold text-lg md:text-3xl leading-normal">
           &nbsp;
           <Star />
-          &nbsp;PUBLIC POLICY AND GOVERNANCE SOCIETY&nbsp;
+          &nbsp;Parliamentary&nbsp;
           <Star />
-          &nbsp;PUBLIC POLICY AND GOVERNANCE SOCIETY&nbsp;
+          &nbsp;Governance&nbsp;
           <Star />
-          &nbsp;PUBLIC POLICY AND GOVERNANCE SOCIETY&nbsp;
+          &nbsp;Debate&nbsp;
           <Star />
-          &nbsp;PUBLIC POLICY AND GOVERNANCE SOCIETY&nbsp;
+          &nbsp;Policy&nbsp;
           <Star />
-          &nbsp;PUBLIC POLICY AND GOVERNANCE SOCIETY&nbsp;
+          &nbsp;Leadership&nbsp;
         </div>
       </Marquee>
     </div>
