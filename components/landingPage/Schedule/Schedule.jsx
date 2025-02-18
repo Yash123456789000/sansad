@@ -12,24 +12,24 @@ export default function Schedule({ scheduleRef }) {
   const [userDetails, setUserDeatials] = useState(null);
   const [event2Reg, setEvent2Reg] = useState(false);
   const [event1Reg, setEvent1Reg] = useState(false);
-  useEffect(() => {
-    fetch("/api/userDetails", {
-      content: "application/json",
-      method: "GET",
-      headers: {
-        "Content-Type": "application/json",
-        Authorization: `Bearer ${session?.accessTokenBackend}`,
-        "Access-Control-Allow-Origin": "*",
-      },
-    })
-      .then((res) => res.json())
-      .then((data) => {
-        setUserDeatials(data);
-      })
-      .catch((err) => {
-        userDetails.user.events = [];
-      });
-  }, []);
+  // useEffect(() => {
+  //   fetch("/api/userDetails", {
+  //     content: "application/json",
+  //     method: "GET",
+  //     headers: {
+  //       "Content-Type": "application/json",
+  //       Authorization: `Bearer ${session?.accessTokenBackend}`,
+  //       "Access-Control-Allow-Origin": "*",
+  //     },
+  //   })
+  //     .then((res) => res.json())
+  //     .then((data) => {
+  //       setUserDeatials(data);
+  //     })
+  //     .catch((err) => {
+  //       userDetails.user.events = [];
+  //     });
+  // }, []);
   return (
     <section
       id="schedule"
