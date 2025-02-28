@@ -8,9 +8,9 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "SANSAD | PPGS",
-  description: "PUBLIC POLICY AND GOVERNANVCE SOCIETY",
+  description: "PUBLIC POLICY AND GOVERNANCE SOCIETY",
   icons:{
-    icon: "/favicon.ico",
+    icon: "./favicon.ico",
   }
 };
 
@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="./favicon.ico" sizes="any" />
         <AuthProvider>
           <div className="mx-auto text-white">
             <Navbar />
